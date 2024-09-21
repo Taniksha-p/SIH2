@@ -67,7 +67,7 @@ const App = () => {
                         <PerformanceReports />
                     </div>
 
-                    <div id="resultandanalytics" className="">
+                    <div id="resultandanalytics" className="section">
                         <ResultsAndAnalytics/>
                     </div>
 

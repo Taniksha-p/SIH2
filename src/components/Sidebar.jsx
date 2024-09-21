@@ -26,9 +26,11 @@ const Sidebar = ({ activeSection }) => {
     return (
         <div className="h-screen bg-gray-900 w-[15%] sticky top-0 left-0 shadow-lg">
             <div className="mt-4">
-                <ProfileSection/>
+                <ProfileSection />
                 <button
-                    className={`w-full text-left p-4 hover:bg-gray-600 rounded-md hover:text-gray-200 ${getActiveClass("home")}`}
+                    className={`w-full text-left p-4 hover:bg-gray-600 rounded-md hover:text-gray-200 ${getActiveClass(
+                        "home"
+                    )}`}
                     onClick={() => scrollToSection("home")}
                 >
                     <FaHome className="inline mb-1 mr-4" />
@@ -77,7 +79,7 @@ const Sidebar = ({ activeSection }) => {
 
                 <button
                     className={`w-full text-left p-4 hover:bg-gray-600 rounded-md hover:text-gray-200 ${getActiveClass(
-                        "settings"
+                        "resultandanalytics"
                     )}`}
                     onClick={() => scrollToSection("resultandanalytics")}
                 >
