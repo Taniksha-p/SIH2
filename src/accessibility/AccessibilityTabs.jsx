@@ -5,7 +5,11 @@ const AccessibilityTabs = () => {
   const [activeTab, setActiveTab] = useState('text');
 
   return (
+<<<<<<< HEAD
     <div className="p-6 bg-gray-100">
+=======
+    <div className="p-6 bg-gray-100 w-full box-border">
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
       <div className="mb-6">
         <ul className="flex space-x-4">
           <li

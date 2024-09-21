@@ -9,7 +9,11 @@ import ContactSupport from './ContactSupport';
 
 function Support() {
   return (
+<<<<<<< HEAD
     <div className="min-h-screen bg-gray-100 p-6">
+=======
+    <div className="min-h-screen box-border w-full bg-gray-100 p-6">
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* <CandidateProfile />

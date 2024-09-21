@@ -246,8 +246,13 @@ const AccessibilityOptions = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="pt-20"> {/* Adjust padding top as needed */}
       <section className="w-screen h-screen bg-gray-100 p-6 lg:p-10">
+=======
+    <div className="pt-20 w-full box-border"> {/* Adjust padding top as needed */}
+      <section className="w-full h-screen bg-gray-100 p-6 lg:p-10">
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
         <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-3xl font-extrabold mb-6 text-center">Accessibility Options</h1>
 

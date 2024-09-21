@@ -2,7 +2,11 @@ import React from 'react';
 
 const ContactSupport = () => {
   return (
+<<<<<<< HEAD
     <div className="p-6 bg-white shadow-md rounded-lg">
+=======
+    <div className="p-6 w-full box-border bg-white shadow-md rounded-lg">
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
       <h2 className="text-xl font-semibold mb-4">Contact Support</h2>
       <form>
         <div className="grid grid-cols-1 gap-4">

@@ -197,8 +197,13 @@ const PerformanceReports = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <div className="pt-20">
       <section className="w-screen bg-gray-100 p-6 lg:p-10 ">
+=======
+    <div className="pt-20 w-full">
+      <section className="w-full bg-gray-100 box-border p-6 lg:p-10 ">
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
         <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-3xl font-extrabold mb-6 text-center">Performance Reports</h1>
           

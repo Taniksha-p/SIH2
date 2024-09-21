@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
+=======
+@tailwind utilities;
+
+* {
+    scrollbar-width: none; /* Hide scrollbar */
+}
+>>>>>>> fe76c85bb0dcbdfbcfc082d21526b1ee7f309e53
