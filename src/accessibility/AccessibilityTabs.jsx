@@ -5,7 +5,7 @@ const AccessibilityTabs = () => {
   const [activeTab, setActiveTab] = useState('text');
 
   return (
-    <div className="p-6 bg-gray-100">
+    <div className="p-6 bg-gray-100 w-full box-border">
       <div className="mb-6">
         <ul className="flex space-x-4">
           <li

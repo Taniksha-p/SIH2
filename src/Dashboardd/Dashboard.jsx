@@ -11,7 +11,7 @@ const Dashboard = () => {
   ];
 
   return (
-    <section className="w-screen bg-gray-100 p-6 lg:p-10">
+    <section className="w-full box-border bg-gray-100 p-6 lg:p-10">
       <div className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-3xl font-extrabold mb-6 text-center">Dashboard</h1>
 

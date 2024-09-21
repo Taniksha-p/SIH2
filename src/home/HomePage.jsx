@@ -82,7 +82,7 @@ import { GiTeacher } from 'react-icons/gi';
 
 const HomePage = () => {
   return (
-    <section className="flex-shrink-0 w-screen h-screen flex items-center justify-center bg-blue-300 text-white px-6 lg:px-10">
+    <section className="flex-shrink-0 w-full box-border h-screen flex items-center justify-center bg-blue-300 text-white px-6 lg:px-10">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-12 max-w-6xl mx-auto">
         {/* Left Side: Introduction */}
         <div className="flex flex-col items-center lg:items-start text-center lg:text-left">

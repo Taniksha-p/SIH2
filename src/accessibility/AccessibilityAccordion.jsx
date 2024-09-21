@@ -9,7 +9,7 @@ const AccessibilityAccordion = () => {
   };
 
   return (
-    <div className="p-6 bg-gray-100">
+    <div className="p-6 bg-gray-100 w-full box-border">
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="mb-4">
           <button

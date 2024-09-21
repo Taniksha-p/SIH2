@@ -4,7 +4,7 @@ import PerformanceChart from './PerformanceChart';
 
 const Include = () => {
   return (
-    <div className="dashboard-container">
+    <div className="dashboard-container w-full box-border">
       {/* <h1>Dashboard</h1> */}
       <section className="overview">
         <AssessmentSummary />

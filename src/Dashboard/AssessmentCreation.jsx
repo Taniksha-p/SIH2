@@ -154,7 +154,7 @@ import React from 'react';
 
 const AssessmentCreation = () => {
   return (
-    <section className="w-screen h-auto bg-gray-100 p-4 lg:p-6 overflow-auto">
+    <section className="w-full box-border h-auto bg-gray-100 p-4 lg:p-6 overflow-auto">
       <div className="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-6">
         <h1 className="text-2xl font-bold mb-6 text-center">Create an Assessment</h1>
         

@@ -3,8 +3,8 @@ import { FaVolumeUp, FaFont, FaKeyboard, FaSave } from 'react-icons/fa';
 
 const AccessibilitySidebar = () => {
   return (
-    <div className="flex">
-      <aside className="w-64 bg-gray-800 text-white p-6 h-screen fixed top-0 left-0">
+    <div className="flex w-full">
+      <aside className="w-full box-border bg-gray-800 text-white p-6 h-screen fixed top-0 left-0">
         <h2 className="text-2xl font-bold mb-6">Accessibility Settings</h2>
         <ul>
           <li className="mb-4 flex items-center">

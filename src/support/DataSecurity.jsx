@@ -2,7 +2,7 @@ import React from 'react';
 
 const DataSecurity = () => {
   return (
-    <div className="p-6 bg-white shadow-md rounded-lg">
+    <div className="p-6 w-full box-border bg-white shadow-md rounded-lg">
       <h2 className="text-xl font-semibold mb-4">Data Security Settings</h2>
       <form>
         <div className="grid grid-cols-1 gap-4">
